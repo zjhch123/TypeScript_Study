@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outFile": "js/helloworld.js",
+    "sourceMap": true
+  },
+  "files": [
+    "ts/helloworld.ts"
+  ]
+}
