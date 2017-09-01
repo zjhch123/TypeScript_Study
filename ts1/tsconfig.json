@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
-    "outFile": "js/helloworld.js",
-    "sourceMap": true
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "js",
+    "sourceMap": false
   },
-  "files": [
-    "ts/helloworld.ts"
+  "exclude": [
+    "js"
+  ],
+  "include": [
+    "ts"
   ]
 }

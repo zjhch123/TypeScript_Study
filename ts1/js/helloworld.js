@@ -3,7 +3,7 @@ function greeting(person) {
 }
 var user = { name: 'tom', age: 11 };
 greeting(user);
-var Student = (function () {
+var Student = /** @class */ (function () {
     function Student(name, className) {
         this.name = name;
         this.className = className;
@@ -15,4 +15,3 @@ var Student = (function () {
 }());
 var stu = new Student('tom', 'class one');
 stu.say();
-//# sourceMappingURL=helloworld.js.map
