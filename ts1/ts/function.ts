@@ -11,7 +11,7 @@ interface Func {
 }
 
 let func: Func = function(x: number, y: number): boolean {
-  return x > y;
+  return x > y; 
 }
 
 interface Util {
@@ -24,4 +24,14 @@ let common: Util = {
     return x > y;
   },
   a: 8
+}
+
+function test(x: number): void;
+function test(x: boolean): void;
+function test(x: boolean | number): void {
+  if (typeof x === 'number') {
+    console.log('number');
+  } else {
+    console.log('boolean');
+  }
 }
